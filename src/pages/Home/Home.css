@@ -1,0 +1,106 @@
+.home {
+    padding: 2rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+    font-size: 2.5rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.tab {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    background: #f0f0f0;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.tab:hover {
+    background: #e0e0e0;
+}
+
+.tab.active {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.search-results-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #666;
+}
+
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.no-results {
+    text-align: center;
+    padding: 3rem;
+    color: #666;
+    font-size: 1.2rem;
+}
+
+.error-message {
+    text-align: center;
+    padding: 2rem;
+    background: #fee;
+    border-radius: 8px;
+    margin: 2rem auto;
+    max-width: 500px;
+    color: #c00;
+}
+
+.error-message p {
+    margin-bottom: 1rem;
+}
+
+.retry-button {
+    padding: 0.5rem 1.5rem;
+    background: #c00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.retry-button:hover {
+    background: #a00;
+}
+
+.debug-info {
+    background: #e3f2fd;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+    color: #1565c0;
+}
+
+.debug-info p {
+    margin: 0.25rem 0;
+}
